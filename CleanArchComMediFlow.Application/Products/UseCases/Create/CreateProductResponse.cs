@@ -1,4 +1,7 @@
 ﻿namespace CleanArchComMediFlow.Application.Products.UseCases.Create
 {
-    public class CreateProductResponse(string message);
+    public class CreateProductResponse()
+    {
+        public string Message { get; set; } = string.Empty;
+    }
 }

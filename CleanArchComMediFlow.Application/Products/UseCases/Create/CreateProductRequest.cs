@@ -2,5 +2,9 @@
 
 namespace CleanArchComMediFlow.Application.Products.UseCases.Create
 {
-    public record CreateProductRequest(string Title) : IRequest<CreateProductResponse>;
+    public record CreateProductRequest() : IRequest<CreateProductResponse>
+    {
+        public string Title { get; set; } = string.Empty;
+    };
+
 }

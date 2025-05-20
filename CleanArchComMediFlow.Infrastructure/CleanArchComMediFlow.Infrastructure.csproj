@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchComMediFlow.Application\CleanArchComMediFlow.Application.csproj" />
+    <ProjectReference Include="..\CleanArchComMediFlow.Domain\CleanArchComMediFlow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
